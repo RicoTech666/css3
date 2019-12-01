@@ -4,3 +4,20 @@
 
   background: linear-gradient(to top left, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 }
+h1 {
+  margin: 0;
+
+  color: #323838;
+}
+.part1 {
+  height: 236px;
+  padding-top: 100px;
+
+  text-align: center;
+}
+.part1>p {
+  font-size: 92px;
+  letter-spacing: 2.4px;
+  color: white;
+  text-shadow: 0 5px 5px black, 0 10px 5px black, 0 15px 5px black;
+}

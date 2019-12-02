@@ -14,3 +14,13 @@ eg.
 ## Pseudo-class
 
 The `:disabled` CSS pseudo-class represents any disabled element. An element is disabled if it can't be activated (selected, clicked on, typed into, etc.) or accept focus. The element also has an enabled state, in which it can be activated or accept focus.
+
+## Gradient
+If one wants to add a progressive transition between two or more colors for background, gradients function should be used.
+```
+ linear-gradient(), radial-gradient(), repeating-linear-gradient(), repeating-radial-gradient(), conic-gradient()
+```
+For example, if one wants to add a background with a few color transition diagonally from top left to bottom right, the css code should be as follow:
+```
+ background: linear-gradient(to top left, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+```

@@ -16,7 +16,6 @@ h1 {
   text-align: center;
 }
 .part1>p {
-
   margin: 0;
   margin-top: 48px;
 
@@ -26,6 +25,8 @@ h1 {
   text-shadow: 0 5px 5px black, 0 10px 5px black, 0 15px 5px black;
 }
 .part2 {
+  height: 318px;
+
   text-align: center;
 }
 .textbox {
@@ -46,7 +47,81 @@ h1 {
   padding-top: 30px;
   padding-bottom: 30px;
 
-  font-size: 28px;
+  font-size: 29px;
   text-align: left;
+  line-height: 36px;
+  word-wrap: break-word;
   color: #007800;
+}
+.part3 {
+  height: 351px;
+
+  text-align: center;
+}
+.pictures {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 35px;
+}
+.picture-box {
+  width: 336px;
+  height: 230px;
+}
+.picture-box:nth-of-type(1) {
+  
+  background: no-repeat center/315px 207px url(../image/empire-state.png) white;
+}
+.picture-box:nth-of-type(2) {
+  margin-left: 40px;
+  margin-right: 40px;
+
+  background: no-repeat center/315px 207px url(../image/liberty.png) white;
+}
+.picture-box:nth-of-type(3) {
+  background: no-repeat center/315px 207px url(../image/midtown.png) white;
+}
+.part4 {
+  height: 337px;
+
+  text-align: center;
+}
+.multi-column-textbox::before {
+  content: "";
+
+  position: relative;
+  top: -68px;
+  left: 168px;
+
+  width: 0;
+  height: 0;
+  
+  border-right: 21px solid transparent;
+  border-left: 21px solid transparent;
+  border-bottom: 21px solid white;
+}
+.multi-column-textbox {
+  position: relative;
+  left: 50%;
+  transform: translate(-315.5px);
+
+  width: 581px;
+  height: 154px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 39px;
+  border-radius: 5px;
+
+  font-family: serif;
+  font-size: 16px;
+  columns: 3;
+
+  background: white;
+}
+.multi-column-textbox>p:first-of-type {
+  position: relative;
+  top: -36px;
+  
 }

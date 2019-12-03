@@ -24,3 +24,4 @@ For example, if one wants to add a background with a few color transition diagon
 ```
  background: linear-gradient(to top left, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 ```
+

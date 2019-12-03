@@ -1,9 +1,14 @@
+/*css styles for the whole page: */
+
 .main {
   width: auto;
   height: 1352px;
 
   background: linear-gradient(to top left, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 }
+
+/*css styles for part 1: */
+
 h1 {
   margin: 0;
 
@@ -26,6 +31,9 @@ h1 {
   color: white;
   text-shadow:0 4px 3px black, 0 7px 3px black, 0 9px 3px black;
 }
+
+/*css styles for part 2：*/
+
 .part2 {
   height: 318px;
 
@@ -55,6 +63,9 @@ h1 {
   word-wrap: break-word;
   color: #007800;
 }
+
+/*css styles for part 3：*/
+
 .part3 {
   height: 351px;
 
@@ -115,10 +126,10 @@ h1 {
   background: no-repeat center/315px 207px url(../image/empire-state.png);
 }
 .picture-box:nth-of-type(2) {
-  color: white;
-
   margin-left: 40px;
   margin-right: 40px;
+
+  color: white;
 
   background: no-repeat center/315px 207px url(../image/liberty.png);
 }
@@ -140,20 +151,19 @@ h1 {
   content: "";
   display: none;
   position: absolute;
-  top: 734px;
+  top: 735px;
   z-index: 9999;
 
   width: 315px;
   height: 207px;
 
-  overflow: hidden;
   background: rgba(58, 1, 132, 0.44);
 }
 .picture-box:nth-of-type(2)::after {
   content: "";
   display: none;
   position: absolute;
-  top: 734px;
+  top: 735px;
   z-index: 9999;
   transform: rotate(0.1turn) translate(-70px, -60px);
 
@@ -166,7 +176,7 @@ h1 {
   content: "";
   display: none;
   position: absolute;
-  top: 734px;
+  top: 735px;
   z-index: 9999;
   width: 315px;
   height: 207px;
@@ -193,6 +203,9 @@ h1 {
   left:0;    
   border-bottom: solid  #BCB7AB 1px;
 }
+
+/*css styles for part 4：*/
+
 .part4 {
   height: 337px;
 
@@ -234,7 +247,7 @@ h1 {
 
   background: white;
 }
-.multi-column-textbox>p:first-of-type {
+.multi-column-textbox>p {
   position: relative;
   top: -36px;
 }

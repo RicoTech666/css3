@@ -87,6 +87,7 @@
 
 .picture-box:nth-of-type(2) {
   overflow: hidden;
+  position: relative;
   
   margin-left: 40px;
   margin-right: 40px;
@@ -112,7 +113,7 @@
 }
 
 .picture-box .content-box:nth-of-type(2) {
-  top: 729px;
+  top: 0;
 }
 
 .picture-box:nth-of-type(1)::after {

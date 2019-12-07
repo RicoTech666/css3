@@ -1,0 +1,49 @@
+/*css styles for footer：*/
+
+.footer {
+  height: 337px;
+
+  text-align: center;
+}
+
+.multi-column-textbox::before {
+  content: "";
+
+  position: absolute;
+  top: -21px;
+  left: 280px;
+
+  width: 0;
+  height: 0;
+  
+  border-right: 21px solid transparent;
+  border-left: 21px solid transparent;
+  border-bottom: 21px solid white;
+}
+
+.multi-column-textbox {
+  position: relative;
+  left: 50%;
+  transform: translate(-315px);
+
+  width: 581px;
+  height: 154px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 39px;
+  border-radius: 5px;
+
+  font-family: serif;
+  font-size: 16px;
+  columns: 3;
+  text-align: justify;
+  word-wrap: break-word;
+
+  background: white;
+}
+
+.multi-column-textbox>p:first-of-type {
+  margin-top: 0;
+}
